@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>lokee's Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <div class="menu-icon" onclick="toggleNavbar()">
+            &#9776;
+        </div>
+        
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Services</a>
+            <a href="#skills" style="--i:4">Portfolio</a>
+			<a href="#my projects" style="--i:5">My projects</a>
+            <a href="#contact" style="--i:5">Contact</a>
+			
+        </nav>
+    </header>
+	
+    <section class="home" id="home">
+		
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Lokesh Chandaluri</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p> A Passionate and driven full-stack developer currently pursuing my Bachelor's of Technology. <br> With a strong foundation in both front-end and back-end technologies.</p>
+                <div class="home-sci">
+                    <a href="mailto: chandalurilokeshkvl@gmail.com " style="--i:7"><i class='bx bxl-gmail'></i></a>
+                    <a href="tel: +91 78421 44904 " style="--i:9"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://www.linkedin.com/in/venkata-sai-lokesh-chandaluri " style="--i:10"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <a href="lokesh_resume.pdf.pdf" download class="btn-box">Download Resume</a>
+        </div>
+		
+		
+        <!-- <span class="home-imgHover"></span> -->
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Untitled design (5).png">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Software Developer!</h4>
+            <p>Detail-oriented Full Stack Developer with hands-on experience in building and maintaining web applications.
+                Proficient in both front-end and back-end technologies, demonstrated through successful internships.<br>Eager to contribute technical expertise and innovative problem-solving skills to a dynamic development team.</p>
+
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code' style='color:#00eeff'  ></i>
+                        <h2>Full Stack web Project Intern</h2>
+                        <p>Created RESTful APIs with Django REST framework, facilitating CRUD operations for car dealership project.
+                             Implemented fornt-end funcionality using React.js</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-crop' style='color:#00eeff'></i>
+                        <h2>MERN Stack Developer Intern</h2>
+                        <p>Analyzed MERN Stack and maintained back-end services, APIs using python.
+                            Implemented databases, by improving data retrieval and reducing data loss.</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-apple' style='color:#00eeff'></i>
+                        <h2>Full stack/ Software Developer Intern</h2>
+                        <p> Conducted troubleshooting, debugging and upgrading software
+                             Utilized Git for source control, facilitating collaboration and code management within the team</p>
+                        <a href="#" class="read">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <section>
+        <div class="container1" id="skills">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="technical-bars">
+                <div class="bar"><i style="color: #c95d2e"></i>
+                    <div class="info">
+                        <span>HTML, CSS, JavaScript</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i  style="color: #147bbc" ></i>
+                    <div class="info">
+                        <span>React.JS, Node.js, Bootstrap</Node></span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i  style="color: #3c33eb" ></i>
+                    <div class="info">
+                        <span>Python, Django, MySQL, MongoDB</span>
+                    </div>
+                    <div class="progress-line bootstrap">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i  style="color: #b0bc1e"></i>
+                    <div class="info">
+                        <span>Azure, AWS</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i  style="color: #69bcbc"></i>
+                    <div class="info">
+                        <span>Git, Github, RESTful APIs</span>
+                    </div>
+                    <div class="progress-line reactjs">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">Adaptability</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">65%</div>
+                <div class="text">collaboration</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">75%</div>
+                <div class="text">Problem Solving</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">85%</div>
+                <div class="text">Continuous Learning</div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div id="my projects">
+            <div class="main-text" id="project">
+                <h2>My <span>Projects</span></h2>
+
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="e c bp.jpg" alt="">
+                        <div class="layer">
+                            <h5><b>Object Detection (Machine Learning)</b></h5>
+                            <p>I  developed expertise in object detection using advanced machine learning techniques like YOLO and Faster R-CNN, 
+enabling effective identification and localization of objects in images and videos. These skills contribute to real-time 
+solutions for applications in autonomous vehicles and surveillance systems.</p>
+                            
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="bs bp.jpg" alt="">
+                        <div class="layer">
+                            <h5><b>Quiz App (Android Studio) </b></h5>
+                            <p>I created an engaging quiz application using Android Studio that challenges users with fun trivia questions across various 
+categories. </p>
+                            
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="CD p.jpg" alt="">
+                        <div class="layer">
+                            <h5><b>ML Prediction Project</b> </h5>
+                            <p>In my ML Prediction Project, I developed machine learning models for accurate weather predictions by analyzing 
+historical data for temperature and precipitation.</p>
+                            
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="P p.jpg" alt="">
+                        <div class="layer">
+                            <h5><b>Portfolio</b></h5>
+                            <p>A portfolio website is a curated, online space that showcases my best work. It's one of the most practical and memorable ways to share my work with press, potential collaborators or employers.</p>
+                            
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="front.jpg" alt="">
+                        <div class="layer">
+                            <h5><b>Management Projects (Advanced Java with Backend) </b></h5>
+                            <p>I led the development of a comprehensive management system using Advanced Java and backend technologies to 
+streamline operations. This project improved user experience through features like data analytics, user authentication, s
+
+                            </p>
+                            
+                            <a href="#"><i class="bx bx-link-external"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+	          <img src="Screenshot (34).png" alt="">     
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>I welcome the chance to discuss how my experience and skills can contribute to your team. Please feel free to reach out.I look forward to exploring potential collaborations and opportunities!</p>
+            <div class="contact-list">
+                <li><i class='bx bxs-send'></i> chandalurilokeshkvl@gmail.com</li>
+                <li><i class='bx bxs-phone'></i> +91 78421 44904</li>
+            </div>
+            <div class="contact-icons">
+                <a href="mailto: chandalurilokeshkvl@gmail.com "><i class='bx bxl-gmail'></i></a>
+                <a href="tel:+91 78421 44904"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/venkata-sai-lokesh-chandaluri "><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+
+        
+
+    </section>
+    <div class="last-text">
+        <p>Developed  by &copy; <b>Lokesh chandaluri</b>  2024</p>
+    </div>
+    <!-- Scroll bottom to top button -->
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+    
+    <script src="index.js"></script>
+</body>
+</html>
